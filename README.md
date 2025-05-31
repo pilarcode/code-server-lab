@@ -33,3 +33,5 @@ docker rm -f <container_id>
 ## Usage
 http://localhost:8080/
 
+![Demo](https://github.com/pilarcode/code-server-lab/blob/feature/secret/images/demo2.png)
+

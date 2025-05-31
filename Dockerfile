@@ -8,8 +8,6 @@ RUN apt-get update && apt-get install -y git python3
 RUN mkdir -p /home/coder/.config && \
     chown -R coder:coder /home/coder/.config
 
-# Set password for the code-server login page
-ENV PASSWORD="admin"
 # Clona el repositorio
 ENV GIT_REPO_URL="https://github.com/pilarcode/multiagents-agno-lab.git"
 

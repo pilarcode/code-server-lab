@@ -1,5 +1,6 @@
 FROM codercom/code-server:latest
 
+# Set environment variables
 USER root
 RUN apt-get update && apt-get install -y git python3
 
@@ -7,8 +8,7 @@ RUN apt-get update && apt-get install -y git python3
 RUN mkdir -p /home/coder/.config && \
     chown -R coder:coder /home/coder/.config
 
-# Set password
-ENV PASSWORD="admin_pilar"
+# Set password FIXME
+ENV PASSWORD="admin"
 
 WORKDIR /home/coder/project
-USER coder

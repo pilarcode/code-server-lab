@@ -1,16 +1,15 @@
 # Coder Server
 
-This project create a docker container with visual studio code, git and python.
-Besides, it clones a repository to work with visual studio code directly.
+This project create a docker container with code-server
 
 
 ## Setup
 ```bash
-docker build -t vscode-python .
+docker build -t code-server .
 ```
 
 ```bash
-docker run -it -p 8080:8080 vscode-python
+docker run -it -p 8080:8080 code-server
 ```
 
 ```bash
@@ -32,6 +31,4 @@ docker rm -f <container_id>
 
 ## Usage
 http://localhost:8080/
-
-![Demo](https://github.com/pilarcode/code-server-lab/blob/feature/secret/images/demo2.png)
 

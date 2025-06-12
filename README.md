@@ -29,5 +29,6 @@ docker rm -f <container_id>
 
 
 ## Usage
+![Demo](https://github.com/pilarcode/code-server-lab/blob/feature/ubuntu-code-server-other-repo/images/demo.png)
 http://localhost:8080/
 

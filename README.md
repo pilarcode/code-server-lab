@@ -1,15 +1,15 @@
 # Coder Server
 
-This project create a docker container with code-server
+This project create a docker container with code-server , python 3.12 and a repo.
 
 
 ## Setup
 ```bash
-docker build -t code-server .
+docker build -t code-server-repo .
 ```
 
 ```bash
-docker run -it -p 8080:8080 code-server
+docker run -it -p 8080:8080  code-server-repo
 ```
 
 ```bash
@@ -19,7 +19,6 @@ docker ps
 ```bash
 docker exec -it <container_id> /bin/bash
 ```
-Note: cat /root/.config/code-server/config.yaml
 
 ```bash
 docker rmi -f <image_id>
